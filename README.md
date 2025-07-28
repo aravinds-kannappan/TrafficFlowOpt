@@ -77,15 +77,15 @@ pip install -r requirements.txt
 ### Traffic Data Loading
 The application will automatically:
 
-**Fetch sensor data on startup.
-**Process traffic flow with embedded models.
-**Cache results for 5 seconds to optimize performance.
-**Retry failed computations with adjusted parameters.
+- **Fetch sensor data on startup.
+- **Process traffic flow with embedded models.
+- **Cache results for 5 seconds to optimize performance.
+- **Retry failed computations with adjusted parameters.
 
 ## Deployment with Docker
-**Automatic Deployment
-**docker build -t trafficflowopt .
-**docker run -p 8080:8080 trafficflowopt
+- **Automatic Deployment
+- **docker build -t trafficflowopt .
+- **docker run -p 8080:8080 trafficflowopt
 
 ## Manual Deployment
 cmake --build build --target install
@@ -121,19 +121,19 @@ class OptimizationResult:
 
 ## Algorithm Workflow
 # Linear Algebra Module
-** Process: Balances traffic flow using matrix inversion.
-** Output: Optimized lane allocations.
-** Performance: 98% accuracy in flow distribution.
+- **Process: Balances traffic flow using matrix inversion.
+- **Output: Optimized lane allocations.
+- **Performance: 98% accuracy in flow distribution.
 
 ## Calculus Module
-** Process: Predicts density changes with differential equations.
-** Output: 5-minute congestion forecasts.
-** Performance: 92% prediction accuracy.
+- **Process: Predicts density changes with differential equations.
+- **Output: 5-minute congestion forecasts.
+- **Performance: 92% prediction accuracy.
 
 # Graph Theory Module
-** Process: Computes shortest paths with Dijkstra’s algorithm.
-** Output: Efficient rerouting plans.
-** Performance: 95% route optimization success.
+- **Process: Computes shortest paths with Dijkstra’s algorithm.
+- **Output: Efficient rerouting plans.
+- **Performance: 95% route optimization success.
 
 Production API Integration
 Sensor API Usage
