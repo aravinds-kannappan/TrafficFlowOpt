@@ -7,11 +7,11 @@ A real-world, C++20 / JAX-based intelligent urban traffic optimization solution 
 [![C++20](https://img.shields.io/badge/C++-20-blue.svg)](https://en.cppreference.com/w/cpp/20)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
 
-## 🎯 Project Overview
+## Project Overview
 
 TrafficFlowOpt applies advanced mathematics (linear algebra, calculus, graph theory) to **real traffic datasets** to optimize and visualize city-wide traffic flow patterns. This system uses verified public datasets and never relies on simulated or random data.
 
-### 🔧 Architecture
+### Architecture
 
 - **Backend**: C++20 simulation & control logic with advanced optimization algorithms
 - **Computation**: JAX + NumPy for GPU-accelerated predictive modeling using Neural ODEs
@@ -19,7 +19,7 @@ TrafficFlowOpt applies advanced mathematics (linear algebra, calculus, graph the
 - **Data**: Real traffic datasets from Austin, Chicago, and other verified sources
 - **Deployment**: Docker + GitHub Pages for easy deployment
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 TrafficFlowOpt/
@@ -50,11 +50,11 @@ TrafficFlowOpt/
 └── config/                    # Configuration files
 ```
 
-## 📊 Real Traffic Datasets
+## Real Traffic Datasets
 
 **This project uses ONLY verified, real-world traffic datasets:**
 
-### ✅ Currently Implemented:
+### Currently Implemented:
 1. **Austin Open Data** - Real-time traffic flow and speed data
    - Source: [Austin Transportation](https://data.austintexas.gov/)
    - Format: JSON/CSV
@@ -65,13 +65,13 @@ TrafficFlowOpt/
    - Format: JSON/CSV  
    - Records: 5,000+ real incidents with location data
 
-### 🎯 Planned Integrations:
+### Planned Integrations:
 3. **NYC Automated Traffic Volume Counts** - Traffic volumes over time/segments
 4. **Seattle Traffic Flow Data** - Temporal + spatial traffic features
 5. **UK Department for Transport** - Road traffic statistics
 6. **GitHub Traffic Datasets** - Community-contributed real traffic data
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Docker Deployment (Recommended)
 
@@ -115,7 +115,7 @@ python src/python/main.py
 4. Your traffic optimization dashboard will be available at:
    `https://your-username.github.io/TrafficFlowOpt/`
 
-## 🧠 Core Functionalities
+## Core Functionalities
 
 ### Traffic Analysis & Prediction
 - **Neural ODE Prediction**: GPU-accelerated traffic flow forecasting
@@ -134,7 +134,7 @@ python src/python/main.py
 - **Prediction Charts**: Time-series forecasting with confidence intervals
 - **Heat Maps**: Traffic flow patterns by location and time
 
-## 🔬 Advanced Mathematics
+## Advanced Mathematics
 
 TrafficFlowOpt implements cutting-edge mathematical models:
 
@@ -178,7 +178,7 @@ double traffic_flow_pde(flows, speeds, densities, dx, dt) {
    - Incremental model updates
    - Performance metric calculation
 
-## 🌐 Web Interface Features
+## Web Interface Features
 
 ### Dashboard
 - **Live Metrics**: Real-time traffic KPIs
@@ -200,7 +200,7 @@ double traffic_flow_pde(flows, speeds, densities, dx, dt) {
 - **Temporal Patterns**: Hourly/daily traffic cycles
 - **Optimization Results**: Algorithm performance metrics
 
-## 🐳 Docker Services
+## Docker Services
 
 The Docker deployment includes:
 
@@ -210,7 +210,7 @@ The Docker deployment includes:
 - **Prometheus**: Metrics collection and monitoring
 - **Grafana**: Advanced visualization dashboards
 
-## 📚 API Documentation
+## API Documentation
 
 ### Data Endpoints
 - `GET /data/current_status.json` - Real-time traffic status
@@ -222,7 +222,7 @@ The Docker deployment includes:
 - `GET /health` - Application health status
 - `GET /metrics` - Prometheus metrics endpoint
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 ```bash
@@ -249,7 +249,7 @@ Configure data sources in `config/data_sources.json`:
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run Python tests
@@ -262,7 +262,7 @@ python -m pytest tests/
 python scripts/test_integration.py
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 ### System Performance
 - **Data Processing**: 10,000+ records/second
@@ -275,7 +275,7 @@ python scripts/test_integration.py
 - **Prediction Accuracy**: 85%+ for 30-minute horizon
 - **Network Efficiency**: 15%+ improvement in test scenarios
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/new-algorithm`
@@ -289,23 +289,6 @@ python scripts/test_integration.py
 - Include unit tests for new functionality
 - Update documentation for API changes
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Austin Transportation Department** for open traffic data
-- **Chicago Data Portal** for comprehensive traffic datasets
-- **JAX Team** for GPU-accelerated computing framework
-- **OpenStreetMap** for mapping infrastructure
-
-## 🔗 Related Projects
-
-- [SUMO Traffic Simulator](https://github.com/eclipse/sumo)
-- [CityFlow Traffic Simulator](https://github.com/cityflow-project/CityFlow)
-- [Neural ODE Implementation](https://github.com/rtqichen/torchdiffeq)
-
----
-
-**Built with real data. Optimized with mathematics. Deployed with confidence.** 🚦✨
