@@ -1,0 +1,100 @@
+MIT License
+
+Copyright (c) 2024 TrafficFlowOpt Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+
+THIRD-PARTY LICENSES AND ACKNOWLEDGMENTS
+
+This project includes or depends on third-party software components with their
+own license terms:
+
+1. JAX - Apache License 2.0
+   Copyright 2018 Google LLC
+   https://github.com/google/jax
+
+2. NumPy - BSD 3-Clause License
+   Copyright 2005-2024, NumPy Developers
+   https://numpy.org/
+
+3. Matplotlib - Python Software Foundation License
+   Copyright 2002-2024 John D. Hunter, Darren Dale, Eric Firing, Michael Droettboom
+   https://matplotlib.org/
+
+4. Plotly.js - MIT License
+   Copyright 2020 Plotly, Inc.
+   https://plotly.com/javascript/
+
+5. Chart.js - MIT License
+   Copyright 2014-2024 Chart.js Contributors
+   https://www.chartjs.org/
+
+6. Leaflet - BSD 2-Clause License
+   Copyright 2010-2024, Vladimir Agafonkin
+   https://leafletjs.com/
+
+7. Font Awesome - SIL OFL 1.1 License (icons), MIT License (code)
+   https://fontawesome.com/
+
+DATA SOURCES AND ATTRIBUTION
+
+This project uses real traffic data from the following public sources:
+
+1. Austin Open Data Portal
+   - Source: City of Austin Transportation Department
+   - License: Public Domain / Open Data
+   - URL: https://data.austintexas.gov/
+
+2. Chicago Data Portal
+   - Source: City of Chicago
+   - License: Public Domain / Open Data
+   - URL: https://data.cityofchicago.org/
+
+3. NYC Open Data (when available)
+   - Source: New York City Department of Transportation
+   - License: Public Domain / Open Data
+   - URL: https://opendata.cityofnewyork.us/
+
+4. Seattle Open Data (when available)
+   - Source: Seattle Department of Transportation
+   - License: Public Domain / Open Data
+   - URL: https://data.seattle.gov/
+
+All traffic data used in this project is obtained from public APIs and open
+data portals. No proprietary or restricted data is used.
+
+RESEARCH AND ACADEMIC USE
+
+If you use this software for research or academic purposes, please cite:
+
+TrafficFlowOpt: A Real-World Traffic Optimization System Using JAX and C++20
+GitHub Repository: https://github.com/[username]/TrafficFlowOpt
+Year: 2024
+
+DISCLAIMER
+
+This software is provided for educational and research purposes. While it uses
+real traffic data, the optimization recommendations should be validated by
+qualified traffic engineers before implementation in production traffic
+management systems.
+
+The authors and contributors are not responsible for any consequences arising
+from the use of this software in actual traffic management scenarios.
