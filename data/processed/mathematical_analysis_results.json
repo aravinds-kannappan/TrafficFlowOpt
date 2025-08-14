@@ -1,0 +1,26 @@
+{
+  "analysis_timestamp": "2025-08-13T21:09:20.037285",
+  "data_records_analyzed": 9939,
+  "shortest_path": {
+    "start": "GROVE BLVD / RIVERSIDE DR",
+    "end": "5TH ST / RED RIVER ST",
+    "travel_time_minutes": 6.860971281520886,
+    "path_length": 2
+  },
+  "flow_matrix": {
+    "size": 5,
+    "total_flow": 54.02394414081053,
+    "determinant": 13.085996666318053,
+    "dominant_eigenvalue": 11.26246383348639
+  },
+  "signal_optimization": {
+    "total_intersections": 5,
+    "average_green_time": 54.920165714411596,
+    "total_delay": 877.019087730951
+  },
+  "pde_simulation": {
+    "initial_density": 0.3,
+    "final_average_density": 0.3,
+    "density_variance": 0.0
+  }
+}
