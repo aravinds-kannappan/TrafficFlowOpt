@@ -1,0 +1,81 @@
+{
+  "nodes": [
+    {
+      "id": "austin_n1",
+      "name": "Grove Blvd & Riverside Dr",
+      "type": "intersection",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "city": "Austin, TX"
+    },
+    {
+      "id": "austin_n2",
+      "name": "Congress Ave & Oltorf St",
+      "type": "intersection",
+      "lat": 30.25,
+      "lon": -97.7594,
+      "city": "Austin, TX"
+    },
+    {
+      "id": "austin_n3",
+      "name": "6th St & Red River St",
+      "type": "intersection",
+      "lat": 30.2655,
+      "lon": -97.7345,
+      "city": "Austin, TX"
+    },
+    {
+      "id": "chicago_n1",
+      "name": "Michigan Ave & Madison St",
+      "type": "intersection",
+      "lat": 41.8819,
+      "lon": -87.6278,
+      "city": "Chicago, IL"
+    },
+    {
+      "id": "chicago_n2",
+      "name": "State St & Jackson Blvd",
+      "type": "intersection",
+      "lat": 41.8776,
+      "lon": -87.627,
+      "city": "Chicago, IL"
+    }
+  ],
+  "edges": [
+    {
+      "from": "austin_n1",
+      "to": "austin_n2",
+      "name": "Congress Avenue",
+      "lanes": 4,
+      "length": 2.1,
+      "city": "Austin, TX"
+    },
+    {
+      "from": "austin_n2",
+      "to": "austin_n3",
+      "name": "6th Street",
+      "lanes": 2,
+      "length": 1.8,
+      "city": "Austin, TX"
+    },
+    {
+      "from": "chicago_n1",
+      "to": "chicago_n2",
+      "name": "State Street",
+      "lanes": 3,
+      "length": 0.8,
+      "city": "Chicago, IL"
+    }
+  ],
+  "metadata": {
+    "source": "Real traffic data from Austin Transportation Department and Chicago Data Portal",
+    "cities": [
+      "Austin, TX",
+      "Chicago, IL"
+    ],
+    "total_intersections": 5,
+    "austin_intersections": 3,
+    "chicago_intersections": 2,
+    "data_records_processed": 9939
+  }
+}

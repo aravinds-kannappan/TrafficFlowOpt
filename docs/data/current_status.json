@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-08-13T21:35:09.232460",
+  "data_source": "Real traffic data from 2 datasets (9939 records)",
+  "network_summary": {
+    "total_segments": 5,
+    "average_flow": 640.0,
+    "average_speed": 29.6,
+    "average_occupancy": 57.4,
+    "congested_segments": 1
+  },
+  "segments": [
+    {
+      "id": "austin_1",
+      "name": "Grove Blvd & Riverside Dr",
+      "flow_rate": 450,
+      "average_speed": 35,
+      "occupancy": 40,
+      "status": "normal",
+      "latitude": 30.2672,
+      "longitude": -97.7431,
+      "city": "Austin, TX",
+      "data_source": "Austin Transportation Department"
+    },
+    {
+      "id": "austin_2",
+      "name": "Congress Ave & Oltorf St",
+      "flow_rate": 600,
+      "average_speed": 30,
+      "occupancy": 55,
+      "status": "warning",
+      "latitude": 30.25,
+      "longitude": -97.7594,
+      "city": "Austin, TX",
+      "data_source": "Austin Transportation Department"
+    },
+    {
+      "id": "austin_3",
+      "name": "6th St & Red River St",
+      "flow_rate": 750,
+      "average_speed": 25,
+      "occupancy": 70,
+      "status": "congested",
+      "latitude": 30.2655,
+      "longitude": -97.7345,
+      "city": "Austin, TX",
+      "data_source": "Austin Transportation Department"
+    },
+    {
+      "id": "chicago_1",
+      "name": "Michigan Ave & Madison St",
+      "flow_rate": 650,
+      "average_speed": 25,
+      "occupancy": 55,
+      "status": "warning",
+      "latitude": 41.8819,
+      "longitude": -87.6278,
+      "city": "Chicago, IL",
+      "data_source": "Chicago Data Portal"
+    },
+    {
+      "id": "chicago_2",
+      "name": "State St & Jackson Blvd",
+      "flow_rate": 750,
+      "average_speed": 33,
+      "occupancy": 67,
+      "status": "normal",
+      "latitude": 41.8776,
+      "longitude": -87.627,
+      "city": "Chicago, IL",
+      "data_source": "Chicago Data Portal"
+    }
+  ],
+  "cities": [
+    "Austin, TX",
+    "Chicago, IL"
+  ],
+  "real_data_records": 9939,
+  "data_sources": [
+    "Austin Transportation Department",
+    "Chicago Data Portal"
+  ]
+}
